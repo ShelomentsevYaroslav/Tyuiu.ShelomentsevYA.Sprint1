@@ -10,7 +10,7 @@ namespace Tyuiu.ShelomentsevYA.Sprint1.Task5.V4.Test
         {
             DataService ds = new DataService();
             int x = 13257;
-            int res = ((tyuiu.cources.programming.interfaces.Sprint1.ISprint1Task5V4)ds).SecondsToHours(x);
+            int res = ds.SecondsToHours(x);
             Assert.AreEqual(3, res);
         }
     }

@@ -23,7 +23,7 @@ namespace Tyuiu.ShelomentsevYA.Sprint1.Task5.V4
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             
-            int h = ((tyuiu.cources.programming.interfaces.Sprint1.ISprint1Task5V4)ds).SecondsToHours(x);
+            int h = ds.SecondsToHours(x);
             Console.WriteLine("Полное количество часов: " + h);
 
 
